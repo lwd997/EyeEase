@@ -1,0 +1,51 @@
+{
+	"name": "eye-ease-theme",
+	"displayName": "EyeEase",
+	"description": "Simple eye-friendly theme  for VSCode ",
+	"publisher": "lwd997",
+	"author": {
+		"name": "lwd997"
+	},
+	"galleryBanner": {
+		"color": "#0a0a0a",
+		"theme": "dark"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.51.0"
+	},
+	"icon": "images/logo.png",
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lwd997/EyeEase.git"
+	},
+	"keywords": [
+		"Theme",
+		"Aesthetic",
+		"Minimal",
+		"Smooth",
+		"Plain",
+		"Cozy",
+		"Relaxing",
+		"EyeEase",
+		"Comfort"
+	],
+	"homepage": "https://github.com/lwd997/EyeEase", 
+	"contributes": {
+		"themes": [
+			{
+				"label": "EyeEase Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/EyeEase-dark.json"
+			},
+			{
+				"label": "EyeEase Light",
+				"uiTheme": "vs",
+				"path": "./themes/EyeEase-light.json"
+			}
+		]
+	}
+}
